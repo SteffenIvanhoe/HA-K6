@@ -1,0 +1,31 @@
+/* General */
+
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+/* Table */
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #EEEEEE;
+}
+
+th, td {
+  border: 1px solid #C0C0C0;
+  padding: 0.2em 0.7em;
+}
+
+th:nth-child(3), th:nth-child(4), td:nth-child(3), td:nth-child(4) {
+  text-align: center;
+}
+
+/*
+The concept behind these styles is to keep it as simple as possible but having
+some very basic aesthetic value (for me ;-).
+*/
